@@ -1,27 +1,550 @@
-{		
-	"menu": {
-		"vorspeise":[
-				{
-					"ItemNum": "1",
-					"ItemName": "Samosa",
-					"Description": "Frittierter Snack gefüllt mit Kartoffeln",
-					"Price": " Erbsen"
-				},
-				{
-					"ItemNum": "2",
-					"ItemName": "Aloo Vada",
-					"Description": "Gewürztes Kartoffelpüree mit würzigem Kichererbsenteig überzogen und gebraten",
-					"Price": " serviert mit frischem Salat und Sauce."
-				},
-				{
-					"ItemNum": "3",
-					"ItemName": "Parippu Vada",
-					"Description": "Gebratene Linsenkugeln mit Ingwer und Curryblättern",
-					"Price": " serviert mit frischem Salat und Sauce (Empfehlung: mit indischem Tee)"
-				},
-				{
-					"ItemNum": ""
-				}
-			]
-		}	
-}	
+{
+   "menu":[
+      {
+         "VORSPEISEN":[
+            {
+               "ItemNo":"1",
+               "ItemName":"Samosa",
+               "Additive":"d",
+               "Description":"Frittierter Snack gefüllt mit Kartoffeln, Erbsen, Möhren und Gewürzen, serviert mit frischem Salat und Sauce.",
+               "Price":"5,9",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"2",
+               "ItemName":"Aloo Vada",
+               "Additive":"d",
+               "Description":"Gewürztes Kartoffelpüree mit würzigem Kichererbsenteig überzogen und gebraten, serviert mit frischem Salat und Sauce.",
+               "Price":"5,6",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"3",
+               "ItemName":"Parippu Vada",
+               "Additive":"d",
+               "Description":"Gebratene Linsenkugeln mit Ingwer und Curryblättern, serviert mit frischem Salat und Sauce (Empfehlung: mit indischem Tee)",
+               "Price":"6,4",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"4",
+               "ItemName":"Paneer Pakora",
+               "Additive":"d,g",
+               "Description":"Indischer Frischkäse mit Kichererbsenteig überzogen und gebraten, serviert mit frischem Salat und Sauce.",
+               "Price":"6,1",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"5",
+               "ItemName":"Onion Bhaji",
+               "Additive":"d",
+               "Description":"Zwiebelstreifen mit gewürztem Kichererbsenteig überzogen und gebraten, serviert mit frischem Salat und Sauce.",
+               "Price":"5,9",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"6",
+               "ItemName":"Chicken Pakora",
+               "Additive":"g",
+               "Description":"Hähnchenstreifen mit gewürztem Kichererbsenteig überzogen und gebraten, serviert mit frischem Salat und Sauce.",
+               "Price":"7,5",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"7",
+               "ItemName":"Fisch Cutlet",
+               "Additive":"d,c,a",
+               "Description":"Gebratene Fischpasteten mit Kartoffeln, Zwiebeln und indischen Gewürzen, serviert mit frischem Salat und Sauce.",
+               "Price":"6,9",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"8",
+               "ItemName":"Fleisch Cutlet",
+               "Additive":"d,a",
+               "Description":"Gebratene Fleischpasteten mit Kartoffeln, Zwiebeln und indischen Gewürzen, serviert mit frischem Salat und Sauce.",
+               "Price":"6,9",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"9",
+               "ItemName":"Vegetarische Platte",
+               "Additive":"d,g",
+               "Description":"Eine Auswahl von Samosa, Paneer Pakora, Baingan Pakora, Onion Bhaji & Parippu vada, serviert mit frischem Salat und Sauce.",
+               "Price":"10,3",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"10",
+               "ItemName":"Gemischte Platte",
+               "Additive":"d,c,a,g",
+               "Description":"Eine Auswahl von Samosa, Paneer Pakora, (Fisch- ODER Fleischschnitzel), Baingan Pakora, Onion Bhaji & Parippu vada, serviert mit frischem Salat und Sauce.",
+               "Price":"13,9",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            }
+         ],
+         "SUPPEN":[
+            {
+               "ItemNo":"21",
+               "ItemName":"Dal Shorba",
+               "Additive":"g",
+               "Description":"Köstliche Linsensuppe mit indischen Gewürzen und Sahne garniert",
+               "Price":"4,6",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"22",
+               "ItemName":"Tomaten Shorba",
+               "Additive":"g",
+               "Description":"Tomatensuppe mit indischen Gewürzen und Sahne garniert",
+               "Price":"4,6",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"23",
+               "ItemName":"Murgh Shorba",
+               "Additive":"g",
+               "Description":"Eine Mughlai-Spezialität mit Ingwer und Zitrone, serviert mit feinen Hähnchenstreifen",
+               "Price":"5,6",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"24",
+               "ItemName":"Lamm Shorba",
+               "Additive":"g",
+               "Description":"Eine Mughlai-Spezialität mit Ingwer und Zitrone, serviert mit feinen Lammstreifen",
+               "Price":"6,9",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            }
+         ],
+         "SALATE":[
+            {
+               "ItemNo":"31",
+               "ItemName":"Papad Channe ki Chaat",
+               "Additive":"g",
+               "Description":"Papad, Garbanzo Bohnen, Tomaten und Zwiebeln mit süß-säuerlichem Dressing",
+               "Price":"4,9",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"32",
+               "ItemName":"NamastheSpiceCoast Spezial Salat ",
+               "Additive":"g,f",
+               "Description":"Salat mit Hähnchenstreifen, Kopfsalat, Gurken, Tomaten, Apfel, Paprika und indischem Dressing",
+               "Price":"9,9",
+               "StufeLevel":"0",
+               "Vegan":"0"
+            }
+         ],
+         "VEGETARISCH / VEGAN":[
+            {
+               "ItemNo":"41",
+               "ItemName":"Nei Roast",
+               "Additive":"g",
+               "Description":"Reis- und Linsencrepes, zubereitet in einer Pfanne mit Ghee, begleitet von Sambar und Chutney.",
+               "Price":"11,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"42",
+               "ItemName":"Masala Dosa",
+               "Additive":"g",
+               "Description":"Reis- und Linsenkrepp gefüllt mit Kartoffelpüree, dazu Sambar und Chutney. ",
+               "Price":"12,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"43",
+               "ItemName":"Chole Bhature",
+               "Additive":"g,a,d",
+               "Description":"Das weltberühmte Gericht aus der Punjabi-Küche ist eine Kombination aus Chana Masala und dem frittierten Bhatura Brot.",
+               "Price":"14,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"44",
+               "ItemName":"Dal Makhani",
+               "Additive":"g",
+               "Description":"Verschiedene Linsen in Butter mit Knoblauch und Ingwer in einer würzigen Tomatensauce, garniert mit frischer Sahne.",
+               "Price":"9,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"45",
+               "ItemName":"Panchrangi Sabzi",
+               "Additive":"g,j,k",
+               "Description":"Fünf verschiedene Körner, fünf verschiedene Gemüsesorten und indischer Käse in einer milden Currysauce mit Spinat.",
+               "Price":"14,5",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"46",
+               "ItemName":"Chana Masala",
+               "Additive":"g",
+               "Description":"Ein sehr schmackhaftes Gericht aus Nordindien mit Kichererbsen und speziellen Gewürzen.",
+               "Price":"13,7",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"47",
+               "ItemName":"Gemüse Jalfrezi",
+               "Additive":"g",
+               "Description":"Verschiedene Gemüsesorten in indischer Gewürzmischung mit frischem Ingwer, Zwiebeln, Tomaten und Paprika, zubereitet in Tomatensauce.",
+               "Price":"14,6",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"48",
+               "ItemName":"Palak Paneer",
+               "Additive":"g",
+               "Description":"Hausgemachter indischer Hüttenkäse mit Spinat, Zwiebeln, Ingwer, Tomaten und Gewürzsoße.",
+               "Price":"13,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"49",
+               "ItemName":"Gemüse Korma",
+               "Additive":"g,b",
+               "Description":"Ein köstliches Gericht mit einer Auswahl an Gemüse, das mit Cashewnüssen und speziellen Gewürzen geschmort wird.",
+               "Price":"14,3",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"50",
+               "ItemName":"Baingan Mughlai",
+               "Additive":"g",
+               "Description":"Aubergine gefüllt mit indischem Käse, Kartoffeln und Erbsen in milder Sauce, garniert mit frischem geriebenem Käse.",
+               "Price":"14,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"51",
+               "ItemName":"Kofta Saagwala",
+               "Additive":"g,d",
+               "Description":"Gemüsebällchen aus Kartoffeln, Erbsen und Möhren in Spinat-Currysauce mit Ingwer, Tomaten und Knoblauch gewürzt.",
+               "Price":"14,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"52",
+               "ItemName":"Bhindi Masala",
+               "Additive":"g",
+               "Description":"Okra gebraten mit frischen Zwiebeln, Ingwer, Tomaten, Mangopulver und Gewürzen.",
+               "Price":"13,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"53",
+               "ItemName":"Aloo Palak",
+               "Additive":"g",
+               "Description":"Eine gesunde und köstliche Zubereitung von Kartoffeln und Spinat.",
+               "Price":"10,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"54",
+               "ItemName":"Dal Tadka",
+               "Additive":"g",
+               "Description":"Gelbes dal gekocht mit Zwiebel, Tomate und gewürzt mit reichlich gehärtetem Ghee und Gewürzen.",
+               "Price":"10,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            }
+         ],
+         "HÜHNERFLEISCH / ENTE":[
+            {
+               "ItemNo":"61",
+               "ItemName":"Malabar Duck Curry",
+               "Additive":"g,j",
+               "Description":"Die Ente wird mit Kokosmilch und Gewürzen zubereitet. Gekochte Kartoffeln und Kokosmilch geben ihm eine cremige Konsistenz.",
+               "Price":"19,3",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"62",
+               "ItemName":"Chicken Curry",
+               "Additive":"g,j",
+               "Description":"Hühnerfilets gekocht in leichter Sahnesauce und klassischen indischen Currygewürzen.",
+               "Price":"15,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"63",
+               "ItemName":"Chicken Vindaloo",
+               "Additive":"g",
+               "Description":"Südindische Hähnchenspezialität, zubereitet mit Kartoffeln, Kokosnuss und Gewürzen.",
+               "Price":"17,5",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"64",
+               "ItemName":"Butter Chicken",
+               "Additive":"g,f",
+               "Description":"Saftige Hühnerstücke aus dem Tandoori-Ofen kurz gegrillt und mit Gewürzen in einer cremigen Tomatencurrysauce gekocht.",
+               "Price":"16,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"65",
+               "ItemName":"Murgh Khazana",
+               "Additive":"g,f",
+               "Description":"Hühnerbrust gefüllt mit Blattspinat, Ingwer, indischen Gewürzen und indischem Käse, mariniert und gegrillt auf offenem Holzofen, serviert mit Currysauce.",
+               "Price":"20,6",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"66",
+               "ItemName":"Chicken Korma",
+               "Additive":"g,b",
+               "Description":"Hühnerfleisch gekocht mit Zwiebeln und Gewürzen in reichhaltiger Sahnesoße mit Kokosmilch und Cashewnüssen.",
+               "Price":"17,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"67",
+               "ItemName":"Chicken Saag",
+               "Additive":"g",
+               "Description":"Hühnerfilets nach indischer Art mit Spinat, frischem Ingwer, frischen Tomaten und Knoblauch.",
+               "Price":"14,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"68",
+               "ItemName":"Chicken Jalfrezi",
+               "Additive":"g",
+               "Description":"Hühnerfilets gewürzt und mit frischem Ingwer, Knoblauch, Paprika, Zwiebeln und Tomatencurrysauce zubereitet.",
+               "Price":"14,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            }
+         ],
+         "LAMM":[
+            {
+               "ItemNo":"71",
+               "ItemName":"Lamm Saag",
+               "Additive":"g",
+               "Description":"Lamm mit Spinat nach indischer Art mit frischem Ingwer, Tomaten und Knoblauch.",
+               "Price":"17,5",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"72",
+               "ItemName":"Lamm Korma",
+               "Additive":"g,b",
+               "Description":"Lamm in reichhaltiger Soße aus Gewürzen, Kokosmilch und Cashewnüssen.",
+               "Price":"20,5",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"73",
+               "ItemName":"Lamm Vindaloo",
+               "Additive":"g",
+               "Description":"Südindische Lammspezialität mit Kartoffeln und exotisch-würziger Sauce.",
+               "Price":"18,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"74",
+               "ItemName":"Lamm Bhindi",
+               "Additive":"g",
+               "Description":"Lamm und Okra in Currysauce mit Ingwer, Knoblauch und Gewürzen.",
+               "Price":"17,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            }
+         ],
+         "MEERESFRÜCHTE":[
+            {
+               "ItemNo":"81",
+               "ItemName":"Jhinga Masala",
+               "Additive":"g,e",
+               "Description":"Garnelen gekocht in exotischen indischen Gewürzen und einer Zwiebel-Tomaten-Sauce.",
+               "Price":"17,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"82",
+               "ItemName":"Fish Molee ",
+               "Additive":"g,c",
+               "Description":"Fischsteak (Lachs) mit Tomaten, Ingwer, Zwiebeln und Curryblättern in aromatischer Kokosnuss-Sauce.",
+               "Price":"16,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            }
+         ],
+         "TANDOORI GRILL":[
+            {
+               "ItemNo":"91",
+               "ItemName":"Tandoori Chicken",
+               "Additive":"g,f",
+               "Description":"Gegrilltes Hühnerfleisch mit Knochen, vorher 24 Stunden in Joghurt und Gewürzen mariniert, serviert mit Currysauce und Salat.",
+               "Price":"16,5",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"92",
+               "ItemName":"Chicken Tikka",
+               "Additive":"g,f",
+               "Description":"Hühnerbrustfilet mariniert mit spezieller Joghurtsauce, serviert mit Salat und Currysauce.",
+               "Price":"18,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"93",
+               "ItemName":"Lamm Tikka",
+               "Additive":"g,f",
+               "Description":"Lammfleisch mariniert in Tandoori-Joghurtsoße mit Paprika, Zwiebeln und Tomaten, dazu Salat und Currysoße.",
+               "Price":"20,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"94",
+               "ItemName":"Tandoori Fisch und Scampi",
+               "Additive":"g,c,e,f",
+               "Description":"Fisch und Scampis mariniert mit Tandoori Spezialsoße, zubereitet im Tandoor, serviert mit Salat und Currysauce.",
+               "Price":"22,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"95",
+               "ItemName":"Tandoori Dorado Royal",
+               "Additive":"g,c,f",
+               "Description":"Marinierter ganzer Fisch (Dorado Royal) aus dem Tandoor.",
+               "Price":"16,5",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"96",
+               "ItemName":"Tandoori Gemischter Grill",
+               "Additive":"g,c,e,f",
+               "Description":"Eine Auswahl an Fleisch-, Fisch- und Scampi-Delikatessen, zubereitet in Tandoor, mit Salat und Currysauce.",
+               "Price":"24,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            }
+         ],
+         "BIRYANI":[
+            {
+               "ItemNo":"101",
+               "ItemName":"Chicken Biryani",
+               "Additive":"g,b,d",
+               "Description":"Basmatireis gedünstet mit Hühnerfilet, Erbsen, Karotten, Zwiebeln, Rosinen, Nüssen, Zimt und anderen aromatischen Gewürzen.",
+               "Price":"17,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"102",
+               "ItemName":"Prawn Biryani",
+               "Additive":"g,b,d,e",
+               "Description":"Shrimps gebraten mit Basmati Reis, Nüssen, Rosinen, Möhren, Erbsen, Zwiebeln und versch. Gewürzen.",
+               "Price":"18,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"103",
+               "ItemName":"Lamm Biryani",
+               "Additive":"g,b,d",
+               "Description":"Basmatireis gedünstet mit gebratenem Lamm, Nüssen, Karotten, Erbsen, Zwiebeln und verschiedenen Gewürzen.",
+               "Price":"18,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"104",
+               "ItemName":"Gemüse Biryani",
+               "Additive":"g,b,d",
+               "Description":"Basmatireis gedämpft mit verschiedenem Gemüse, Erbsen, Karotten, Zwiebeln, Rosinen, Nüssen, Zimt und anderen aromatischen Gewürzen",
+               "Price":"15,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            }
+         ],
+         "REIS":[
+            {
+               "ItemNo":"111",
+               "ItemName":"Grüne Erbsen Pulao",
+               "Additive":"g,b,d",
+               "Description":"Gedämpfter Basmatireis mit grünen Erbsen und Gewürzen.",
+               "Price":"4,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"112",
+               "ItemName":"Basmatireis",
+               "Additive":"",
+               "Description":"Basmati ist eine Sorte von langem, feinkörnigem, aromatischem Reis, der traditionell aus dem indischen Subkontinent stammt.",
+               "Price":"3",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            }
+         ],
+         "THALI":[
+            {
+               "ItemNo":"121",
+               "ItemName":"Veg-Thali",
+               "Additive":"g,b,d,j,a",
+               "Description":"Eine Platte mit verschiedenen vegetarischen Gerichten, serviert mit Basmatireis, Rumali-Roti und Dessert.",
+               "Price":"20,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            },
+            {
+               "ItemNo":"122",
+               "ItemName":"Non-Veg Thali",
+               "Additive":"g,b,d,j,a,c,k",
+               "Description":"Eine Platte mit verschiedenen nicht-vegetarischen Gerichten, serviert mit Basmatireis, Rumali-Roti und Dessert.",
+               "Price":"25,9",
+               "StufeLevel":"1",
+               "Vegan":"0"
+            }
+         ]
+      }
+   ]
+}
